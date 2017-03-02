@@ -1,0 +1,20 @@
+{
+  "name": "going-out-app",
+  "version": "1.0.0",
+  "description": "For going out on a budget",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Creli",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.16.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
