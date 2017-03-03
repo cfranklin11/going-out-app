@@ -1,15 +1,13 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
 
-  get 'categories', to: 'suggestions#categories'
-  get 'location', to: 'suggestions#location'
-  get 'budget', to: 'suggestions#budget'
-  get 'index', to: 'suggestions#index'
+  # Render views
+  get 'plan', to: 'suggestions#plan'
+  get 'plan/locations', to: 'suggestions#locations'
 
-  namespace :api do
-    get 'restaurants/locations', to: 'restaurants#locations'
-    get 'restaurants/restaurants', to: 'restaurants#restaurants'
-  end
+  # Return JSON
+  get 'plan/restaurants', to: 'suggestions#restaurants'
+  get 'suggestions', to: 'suggestions#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
