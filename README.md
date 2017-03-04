@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+#Front end by github.com/meligatt
+
+#ReactJs:
+* alt
+* FlexBox
