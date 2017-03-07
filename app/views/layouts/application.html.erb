@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GoingOutApp</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Going out! App</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,21 +12,22 @@
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/blog/">Blog</a></li>
+    <nav class="nav">
+      <ul class="Grid">
+        <li class="Grid-cell--xs-3">Going Out!</li>
+        <li class="Grid-cell--xs-3"><a href="index.html">Home</a></li>
+        <li class="Grid-cell--xs-3"><a href="/about/">About</a></li>
+        <li class="Grid-cell--xs-3"><a href="/blog/">Blog</a></li>
       </ul>
     </nav>
 
     <%= yield %>
-    <div id="footer">
-  <ul>
-     <li>copyright</li>
-     <li>sitemap</li>
-     <li>contact</li>
-     <li>to top</li>
+    <div class="footer">
+  <ul class="Grid">
+     <li class="Grid-cell--xs-3">copyright</li>
+     <li class="Grid-cell--xs-3">sitemap</li>
+     <li class="Grid-cell--xs-3">contact</li>
+     <li class="Grid-cell--xs-3">to top</li>
   </ul>
 <div>
   </body>
