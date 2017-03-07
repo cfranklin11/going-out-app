@@ -23,8 +23,8 @@ Things you may want to cover:
 
 * ...
 
-#Front end by github.com/meligatt
+#Front-end by github.com/meligatt
 
-#ReactJs:
-* alt
-* FlexBox
+#front-end sources:
+* alt: alt.js.org
+* FlexBox: http://flexgrid.axiomzen.co/
