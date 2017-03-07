@@ -1,3 +1,19 @@
 // Place all the styles related to the suggestions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.PlanBorder {
+   border: 2px solid gray;
+   border-radius: 10px;
+}
+
+.PlanBorder--blue {
+   border-color: blue;
+}
+
+.PlanBorder--green {
+   border-color: green;
+}
+
+.PlanBorder--orange {
+   border-color: orange;
+}
