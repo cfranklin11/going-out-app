@@ -6,7 +6,7 @@ class Category extends React.Component {
 
   render () {
     return (
-      <div onClick={this.selectSuburb.bind(this)}>
+      <div className="category--item" onClick={this.selectSuburb.bind(this)}>
         {this.props.value}
       </div>
     );

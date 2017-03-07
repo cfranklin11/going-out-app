@@ -71,6 +71,21 @@ font-size:1.45em;
    border-color: #f39c12;
 }
 
+// structure and positioning
+.categories {
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-content: space-around;
+}
+.category--item {
+   margin: 5px;
+}
+.category--item--skin {
+   border: 1px solid orange;
+}
+
+// structure and positioning
 .btn {
    display: inline-block;
    margin: 10px;
@@ -100,6 +115,7 @@ font-size:1.45em;
    font-weight: 400;
 }
 
+// structure and positioning
 .btn__next {
    padding-right: 12px;
    padding-left: 12px;

@@ -4,7 +4,6 @@ class PlanContainer extends React.Component {
   }
 
   render () {
-    console.log(this.props.color);
     const childrenWithProps = React.Children.map(this.props.children,
     (child) => {
       if (child.type === Category) {
@@ -13,10 +12,12 @@ class PlanContainer extends React.Component {
         return child;
       }
     });
+    const planContainerClass =
+      'plan-container plan-container--border plan-container--border-' +
+      this.props.color;
 
     return (
-      <div className=
-      {'plan-container plan-container--border plan-container--border-' + this.props.color}>
+      <div className={planContainerClass}>
         <h5>{this.props.title}</h5>
         {childrenWithProps}
       </div>);
