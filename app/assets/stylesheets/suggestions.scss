@@ -48,81 +48,97 @@ font-size:1.45em;
 
 // structure and positioning
 .plan-container {
-   padding: 10px;
-   margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 // visual features
 .plan-container--border{
-   border: 2px solid gray;
-   border-radius: 10px;
-   color: #333D47;
+  border: 2px solid gray;
+  border-radius: 10px;
+  color: #333D47;
 }
 
 .plan-container--border-blue {
-   border-color: #3498db;
+  border-color: #3498db;
 }
 
 .plan-container--border-green {
-   border-color: #18bc9c;
+  border-color: #18bc9c;
 }
 
 .plan-container--border-orange {
-   border-color: #f39c12;
+  border-color: #f39c12;
 }
 
 // structure and positioning
 .categories {
-   padding: 10px;
-   display: flex;
-   flex-direction: row;
-   align-content: space-around;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
 }
 .category--item {
-   margin: 5px;
+  margin: 5px;
 }
 .category--item--skin {
-   border: 1px solid orange;
+  border: 1px solid orange;
 }
 
 // structure and positioning
 .btn {
-   display: inline-block;
-   margin: 10px;
-   padding: 10px 5px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 5px;
 }
 
 .btn--default {
-   background-color: white;
-   border-radius: 5px;
-   color: #888;
-   font-size: 18px;
-   font-weight: 600;
-   text-transform: uppercase;
-   text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: #888;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .btn--orange {
-   background-color: orange;
-   color: #fff;
-   font-weight: 600;
-   background-color: #333;
-   opacity: .4;
-   border-radius: 5px 0 0 5px;
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 5px 0 0 5px;
 }
 
 .btn--big {
-   font-size: 28px;
-   font-weight: 400;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 // structure and positioning
 .btn__next {
-   padding-right: 12px;
-   padding-left: 12px;
-   margin-right: -10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
 }
 
 .btn__text {
-   padding: 0 10px;
-   border-radius: 0 5px 5px 0;
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 21px;
+  list-style: none;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+.form-control {
+  font-size: 15px;
+  color: #2c3e50;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dce4ec;
+  border-radius: 4px;
 }

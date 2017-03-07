@@ -1,7 +1,7 @@
 class Breadcrumbs extends React.Component {
   render () {
     return (
-      <div>
+      <div className="breadcrumb">
       you are here: where / what / how much
       </div>
     );

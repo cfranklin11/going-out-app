@@ -7,8 +7,10 @@ class PlanContainer extends React.Component {
     const childrenWithProps = React.Children.map(this.props.children,
     (child) => {
       if (child.type === Category) {
+
         return (React.cloneElement(child, { selectSuburb: this.selectSuburb }));
       } else {
+        console.log(child);
         return child;
       }
     });
