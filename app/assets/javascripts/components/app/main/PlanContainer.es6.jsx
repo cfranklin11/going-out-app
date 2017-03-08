@@ -7,17 +7,14 @@ class PlanContainer extends React.Component {
     const childrenWithProps = React.Children.map(this.props.children,
     (child) => {
       if (child.type === Category) {
-
         return (React.cloneElement(child, { selectSuburb: this.selectSuburb }));
       } else {
-        console.log(child);
         return child;
       }
     });
     const planContainerClass =
-      'plan-container plan-container--border plan-container--border-' +
-      this.props.color;
-
+      'plan-container plan-container--border plan-container--border-' + this.props.color;
+      console.log(planContainerClass);
     return (
       <div className={planContainerClass}>
         <h5>{this.props.title}</h5>
@@ -26,7 +23,7 @@ class PlanContainer extends React.Component {
   }
 }
 PlanContainer.propTypes = {
-  children: React.PropTypes.array.isRequired,
+
   color: React.PropTypes.string,
   title: React.PropTypes.string,
 };

@@ -16,5 +16,8 @@
     "eslint": "^3.16.1",
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-react": "^6.10.0"
+  },
+  "dependencies": {
+    "alt": "^0.18.6"
   }
 }

@@ -1,3 +1,5 @@
+// import alt from '../alt';
+
 class PlanActions {
   fetchLocations (query) {
     return (dispatch) => {
@@ -13,4 +15,4 @@ class PlanActions {
     };
   }
 }
-export default alt.createActions(PlanActions);
+// export default alt.createActions(PlanActions);

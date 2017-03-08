@@ -1,3 +1,6 @@
+// import alt from '../alt';
+// import PlanActions from '../actions/PlanActions.js';
+
 class PlanStore {
   constructor () {
     this.bindListeners(
@@ -12,4 +15,4 @@ class PlanStore {
     this.setState({ locations: locations });
   }
 }
-export default alt.createStore(PlanStore, 'PlanStore');
+// export default alt.createStore(PlanStore, 'PlanStore');
