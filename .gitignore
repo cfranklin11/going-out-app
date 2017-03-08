@@ -21,6 +21,4 @@
 .byebug_history
 
 .env
-.eslintrc
-.eslintignore
 node_modules

@@ -1,5 +1,5 @@
-// import PlanStore from '../../stores/PlanStore';
-// import PlanActions from '../../stores/PlanActions';
+import PlanStore from '../stores/PlanStore';
+// import PlanActions from '../stores/PlanActions';
 
 class Main extends React.Component {
   constructor () {
@@ -51,3 +51,5 @@ class Main extends React.Component {
 Main.propTypes = {
   user: React.PropTypes.string,
 };
+
+export default Main;

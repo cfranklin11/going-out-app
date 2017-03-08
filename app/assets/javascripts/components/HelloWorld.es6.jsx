@@ -1,7 +1,6 @@
 // import Breadcrumbs from './app/form/Breadcrumbs';
 // import Main from './app/Main';
-import HelloWorld from './HelloWorld.es6.jsx';
-class App extends React.Component {
+class HelloWorld extends React.Component {
   constructor () {
     super();
     // this.state = {
@@ -16,8 +15,10 @@ class App extends React.Component {
       <div id="main-container">
         // <Breadcrumbs />
         // <Main />
-        <HelloWorld />
+        <p>hello world</p>
       </div>
     );
   }
 }
+
+export default HelloWorld;
