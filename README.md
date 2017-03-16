@@ -1,30 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Front-end development: github.com/meligatt
 
-Things you may want to cover:
+  - React JS components (code and design)
+  - Css stylesheets
+  - Front-end validations
+  - Responsive features
+  - Prototypes / mockup Design
 
-* Ruby version
+- Back-end development: github.com/cfranklin11
 
-* System dependencies
+  - Back-end API structure
+  - Rails Things
+  - environment configuration (like setting up React into Rails)
 
-* Configuration
+# Technologies used:
 
-* Database creation
+- react-rails: Ruby gem for automatically transforming JSX and using React in Rails. (https://github.com/reactjs/react-rails)
 
-* Database initialization
+- browserify: for bundling up all dependencies.
 
-* How to run the test suite
+- Babel:  compiler for writing next generation JavaScript. (compiling from ES6 to ES5) When your supported environments don't support certain features natively, it will help you compile it down to a supported version. (https://github.com/babel/babel)
 
-* Services (job queues, cache servers, search engines, etc.)
+- Babel presets that we are using:
 
-* Deployment instructions
+  - "babel-preset-es2015": compiles ES2015 to ES5
+  - "babel-preset-react": transform JSX into createElement calls.
 
-* ...
-
-#Front-end by github.com/meligatt
-
-#front-end sources:
+# Front-end sources used:
 * alt: alt.js.org
 * FlexBox: http://flexgrid.axiomzen.co/
