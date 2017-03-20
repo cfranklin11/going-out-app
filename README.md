@@ -15,6 +15,7 @@
   - environment configuration (like setting up React into Rails)
 
 # Technologies used:
+- ALT React library: Alt is a library that facilitates the managing of state within your JavaScript applications. It is modeled after flux.
 
 - react-rails: Ruby gem for automatically transforming JSX and using React in Rails. (https://github.com/reactjs/react-rails)
 
