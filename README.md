@@ -25,8 +25,10 @@
 - Babel presets that we are using:
 
   - "babel-preset-es2015": compiles ES2015 to ES5
+
   - "babel-preset-react": transform JSX into createElement calls.
 
 # Front-end sources used:
-* alt: alt.js.org
-* FlexBox: http://flexgrid.axiomzen.co/
+
+* React State management: alt (alt.js.org)
+* Css Grid system: FlexBox (http://flexgrid.axiomzen.co/)
