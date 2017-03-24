@@ -33,9 +33,8 @@ class Main extends React.Component {
   }
 
   renderWhereStep () {
-    // console.log("rendering!", `data: ${this.state.locations}`);
-    console.log(this.state);
-    return (<WhereContainer handleFetchLocations={this.handleFetchLocations} locations={this.state.locations} flag='true' />);
+    return (<WhereContainer handleFetchLocations={this.handleFetchLocations}
+      locations={this.state.locations} flag='true' />);
   }
 
   renderWhatStep () {

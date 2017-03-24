@@ -4,20 +4,26 @@ import Category from './Category';
 
 class WhereContainer extends React.Component {
 
+  renderCategories (locations) {
+    if (locations != undefined) {
+      if (locations.location_suggestions.length > 0) {
+        return locations.location_suggestions.map((location, index) => (
+          <Category key={index}
+            value={location.name +' '+location.country_name} />
+        ));
+      } else return [];
+  } else return [];
+  }
+
   render () {
-    return (<Search placeholder="Enter an address"
-      handleFetchLocations={this.props.handleFetchLocations}/>);
-    /* return (
+    const categories = this.renderCategories(this.props.locations);
+     return (
       <PlanContainer title="Where" color="blue">
         <Search placeholder="Enter an address"
-          handleFetchLocations={this.props.handleFetchLocations}/>
-          categories.map()
-          <Category value="South Yarra"/>
-          <Category value="Richmond"/>
-          <Category value="South Melbourne"/>
-          <Category value="South Bank"/>
-       </PlanContainer>
-  ); */
+          handleFetchLocations={this.props.handleFetchLocations} />
+          { categories }
+      </PlanContainer>
+    );
   }
 }
 

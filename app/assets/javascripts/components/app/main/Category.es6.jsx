@@ -5,8 +5,13 @@ class Category extends React.Component {
   }
 
   render () {
+    // return (
+    //   <div className="category--item" onClick={this.selectSuburb.bind(this)}>
+    //     {this.props.value}
+    //   </div>
+    // );
     return (
-      <div className="category--item" onClick={this.selectSuburb.bind(this)}>
+      <div style={{ border: '1px solid red', padding: '10px' }}>
         {this.props.value}
       </div>
     );
