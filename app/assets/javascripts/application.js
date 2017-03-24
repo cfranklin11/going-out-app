@@ -17,5 +17,14 @@
 //= require react_ujs
 //= require components
 //= require_tree .
+// var Greeter = require('./greeter');
+// Greeter.sayHello('Visitor');
+// Greeter.sayGoodbye('Visitor');
+//
+// var Greeter2 = require('./greeter2').myClass;
+// Greeter2.fetchLocations('Melissa');
+
+// var m = require('./components/app/Main');
+// console.log("m",m);
 
 require('./components')

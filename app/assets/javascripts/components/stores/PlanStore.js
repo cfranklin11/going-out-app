@@ -10,9 +10,8 @@ class PlanStore {
   }
 
   // action handler
-  handleFetchLocations (locations) {
-    // this.setState({ locations: locations });
-    console.log(locations);
+  handleFetchLocations (data) {
+    this.setState({ locations: data });
   }
 }
 export default alt.createStore(PlanStore, 'PlanStore');
