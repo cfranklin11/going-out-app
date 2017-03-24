@@ -1,3 +1,6 @@
+import HelloWorld from './HelloWorld';
+import Main from './app/Main';
+
 class App extends React.Component {
   constructor () {
     super();
@@ -5,10 +8,11 @@ class App extends React.Component {
 
   render () {
     return (
-      <div id="main-container">
-        <p>Testing from App Component </p>
-        <HelloWorld />
+      <div style={{ padding: '20px' }}>
+        { /* <HelloWorld />*/ }
+        <Main />
       </div>
     );
   }
 }
+export default App;
