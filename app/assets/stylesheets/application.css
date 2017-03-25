@@ -15,4 +15,30 @@
  */
  body {
    font-family: 'Roboto', sans-serif;
+   background-color: #fffff0;
  }
+
+.logo {
+  color: #ed1c40;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav {
+  font-size: 0.9em;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  padding-bottom: 2px;
+}
+.footer {
+  border-top: 1px solid #EEE;
+  padding-top: 10px;
+}
+.footer__link {
+  color: rgba(0,0,0,.54);
+  font-size: 0.75em;
+  text-decoration: none;
+}
