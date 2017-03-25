@@ -89,17 +89,20 @@ font-size:1.45em;
 .btn {
   display: inline-block;
   margin: 10px;
-  padding: 10px 5px;
+  padding: 5px;
 }
 
 .btn--default {
-  background-color: white;
+  background-color: #dcdcdc;
+  border: 1px solid #CCC;
   border-radius: 5px;
+  border-style:solid;
   color: #888;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
 }
 .btn--orange {
   background-color: orange;
@@ -134,7 +137,7 @@ font-size:1.45em;
   background-color: #ecf0f1;
   border-radius: 4px;
 }
-.form-control {
+.form-group__search {
   font-size: 15px;
   color: #2c3e50;
   background-color: #ffffff;
