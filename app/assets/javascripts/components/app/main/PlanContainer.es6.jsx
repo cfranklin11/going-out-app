@@ -18,7 +18,7 @@ class PlanContainer extends React.Component {
 
     return (
       <div className={planContainerClass}>
-        <h5>{this.props.title}</h5>
+        <h5 className="plan-container__title plan-container__title--skin">{this.props.title}</h5>
         {childrenWithProps}
       </div>);
   }

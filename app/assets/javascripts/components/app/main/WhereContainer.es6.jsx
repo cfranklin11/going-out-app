@@ -21,7 +21,7 @@ class WhereContainer extends React.Component {
       <PlanContainer title="Where" color="blue">
         <Search placeholder="Enter an address"
           handleFetchLocations={this.props.handleFetchLocations} />
-          { categories }
+        { categories }
       </PlanContainer>
     );
   }
